@@ -1,0 +1,14 @@
+name: LocatePlayer
+version: 1.0
+author: UUT118
+api-version: 1.14
+main: me.uut118.locatePlayer.Main
+
+commands:
+  locateplayer:
+    description: "Find your friend without having to ask them many times."
+    usage: "/locateplayer <player>"
+
+permissions:
+  locateplayer.use:
+    default: true
